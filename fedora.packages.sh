@@ -1,0 +1,27 @@
+# Awesome WM dependencies
+awesome
+google-roboto-fonts
+rofi
+compton
+xclip
+papirus-icon-theme
+materia-gtk-theme
+lxappereance
+light
+spectacle
+xfce4-power-manager
+blueberry
+network-manager-applet 
+numlockx
+
+
+# Browser
+brave-browser
+
+# Everything else
+gnome-tweaks
+dnf-utils
+make
+htop
+#steam
+#lutris
