@@ -6,7 +6,7 @@ compton
 xclip
 papirus-icon-theme
 materia-gtk-theme
-lxappereance
+lxappearance
 light
 spectacle
 xfce4-power-manager
