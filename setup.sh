@@ -59,3 +59,6 @@ mkdir build;cd build/
 git clone https://github.com/meskarune/i3lock-fancy.git
 cd i3lock-fancy/
 sudo make install
+
+# update the system!
+sudo dnf upgrade -y
