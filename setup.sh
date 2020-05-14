@@ -41,6 +41,10 @@ flatpak install -y flathub com.visualstudio.code
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub org.pulseaudio.pavucontrol
 
+#flatpak install flathub org.godotengine.Godot
+#flatpak install flathub org.blender.Blender
+#flatpak install flathub org.kde.krita
+
 # Remove auto-hide functionality that automatically  is enabled on new Fedora Workstation installs. This can be disabled by running:
 sudo grub2-editenv - unset menu_auto_hide
 
