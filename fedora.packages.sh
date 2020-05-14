@@ -23,5 +23,6 @@ gnome-tweaks
 dnf-utils
 make
 htop
+terminator
 #steam
 #lutris
