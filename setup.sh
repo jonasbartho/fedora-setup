@@ -21,15 +21,15 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 # Download and cache metadata for all known repos
 sudo dnf makecache
 
-# Download necessary dependency scripts for the setup script
-wget https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/fedora.packages.sh
-wget https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc.aliases
+# Download necessary dependency scripts for the setup script(downloads only the file if github has a newer version)
+wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/fedora.packages.sh
+wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc.aliases
 
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
 # grep necessary packages to install
-sudo dnf install $(grep "^[^#]" ~/fedora.packages) -y
+sudo dnf install $(grep "^[^#]" ~/fedora.packages.sh) -y
 
 # Flatpak apps:
 sudo dnf install flatpak -y
