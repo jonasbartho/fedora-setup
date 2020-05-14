@@ -48,8 +48,11 @@ sudo grub2-editenv - unset menu_auto_hide
 # This has the effect of disabling the system bell entirely, which in 99.99% of cases is unwanted, surprising, embarrassing, humiliating, or even painful. 
 echo "blacklist pcspkr" | sudo tee -a /etc/modprobe.d/blacklist.conf
 
-#Custom shell prompt with aliases Source: https://www.linuxquestions.org/questions/linux-general-1/ultimate-prompt-and-bashrc-file-4175518169/
+# Custom shell prompt with aliases Source: https://www.linuxquestions.org/questions/linux-general-1/ultimate-prompt-and-bashrc-file-4175518169/
 cat ~/bashrc.aliases >> ~/.bashrc
+
+# Enable numbering in all files
+echo "set number" >> ~/.exrc
 
 # Compile i3lock-fancy(Awesome WM dependency to lock screen)
 mkdir build;cd build/
