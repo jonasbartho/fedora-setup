@@ -13,7 +13,8 @@ xfce4-power-manager
 blueberry
 network-manager-applet 
 numlockx
-
+ImageMagick
+i3lock
 
 # Browser
 brave-browser
