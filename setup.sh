@@ -22,8 +22,8 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 sudo dnf makecache
 
 # Download necessary dependency scripts for the setup script
-wget https://github.com/jonasbartho/fedora-setup/master/fedora-packages.sh
-wget https://github.com/jonasbartho/fedora-setup/master/bashrc.aliases
+wget https://github.com/jonasbartho/fedora-setup/blob/master/fedora-packages.sh
+wget https://github.com/jonasbartho/fedora-setup/blob/master/bashrc.aliases
 
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
