@@ -25,5 +25,6 @@ dnf-utils
 make
 htop
 terminator
+android-file-transfer
 #steam
 #lutris
