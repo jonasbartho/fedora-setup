@@ -26,7 +26,12 @@ wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/fedora
 wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc.aliases
 
 # Download checkinstall for fedora - use this instead of "make install" whenever possible - it will create a rpm file that you can uninstall using your favorite package manager
+# Dependencies of checkinstall are "make","rpm-build","gcc" and "rpmdevtools"
+# Usage: cd compilefolder;sudo make;sudo checkinstall --install=no
 #wget - N https://raw.githubusercontent.com/rpmsphere/x86_64/master/c/checkinstall-1.6.2-1.x86_64.rpm
+# sudo dnf install ./checkinstall-1.6.2-1.x86_64.rpm -y
+# rpmdev-setuptree #create rpmbuild tree under home
+
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
