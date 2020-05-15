@@ -25,6 +25,8 @@ sudo dnf makecache
 wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/fedora.packages.sh
 wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc.aliases
 
+# Download checkinstall for fedora - use this instead of "make install" whenever possible - it will create a rpm file that you can uninstall using your favorite package manager
+#wget - N https://raw.githubusercontent.com/rpmsphere/x86_64/master/c/checkinstall-1.6.2-1.x86_64.rpm
 # Install TeamViewer
 sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
