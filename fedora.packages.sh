@@ -22,6 +22,7 @@ brave-browser
 # Everything else
 gnome-tweaks
 dnf-utils
+vim
 make
 htop
 terminator
