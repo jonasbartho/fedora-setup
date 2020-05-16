@@ -27,6 +27,7 @@ make
 htop
 terminator
 keepassx
+speedtest-cli
 gcc
 gcc-c++
 rpm-build
