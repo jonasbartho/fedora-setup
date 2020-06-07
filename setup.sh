@@ -40,7 +40,7 @@ sudo dnf install $(grep "^[^#]" ~/fedora.packages.sh) -y
 
 # Flatpak apps:
 sudo dnf install flatpak -y
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 flatpak install -y flathub com.spotify.Client
 flatpak install -y flathub io.github.celluloid_player.Celluloid
