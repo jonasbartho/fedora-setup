@@ -33,7 +33,7 @@ wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc
 # rpmdev-setuptree #create rpmbuild tree under home
 
 # Install TeamViewer
-sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
+#sudo dnf install https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -y
 
 # grep necessary packages to install
 sudo dnf install $(grep "^[^#]" ~/fedora.packages.sh) -y
@@ -47,7 +47,7 @@ flatpak install -y flathub io.github.celluloid_player.Celluloid
 flatpak install -y flathub com.visualstudio.code
 flatpak install -y flathub com.discordapp.Discord
 flatpak install -y flathub org.pulseaudio.pavucontrol
-flatpak install -y flathub com.jetbrains.PyCharm-Community
+#flatpak install -y flathub com.jetbrains.PyCharm-Community
 
 #flatpak install flathub org.godotengine.Godot
 #flatpak install flathub org.blender.Blender
