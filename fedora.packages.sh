@@ -18,6 +18,7 @@ i3lock
 
 # Browser
 brave-browser
+google-chrome-stable
 
 # Everything else
 gnome-tweaks
@@ -35,6 +36,8 @@ rpmdevtools
 exfat-utils
 fuse-exfat
 arandr
+irssi
+python3-pyyaml
 #android-file-transfer - go into dev options + toggle off/on MTP and try to mount the phone, this works better than android-file-transfer
 #steam
 #lutris

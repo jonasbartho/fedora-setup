@@ -14,7 +14,8 @@ sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
 # Google Chrome repo
-#sudo dnf install fedora-workstation-repositories -y
+sudo dnf install fedora-workstation-repositories -y
+sudo dnf config-manager --set-enabled google-chrome
 ####################################################
 
 
