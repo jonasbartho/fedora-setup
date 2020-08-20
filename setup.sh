@@ -22,6 +22,9 @@ sudo dnf config-manager --set-enabled google-chrome
 # Download and cache metadata for all known repos
 sudo dnf makecache
 
+#VirtualBox setup for fedora32: https://tecadmin.net/install-oracle-virtualbox-on-fedora/
+#Secure boot can be disabled if you don't wont to sign..
+
 # Download necessary dependency scripts for the setup script(downloads only the file if github has a newer version)
 wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/fedora.packages.sh
 wget -N https://raw.githubusercontent.com/jonasbartho/fedora-setup/master/bashrc.aliases
