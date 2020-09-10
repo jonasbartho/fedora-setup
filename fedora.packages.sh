@@ -20,6 +20,9 @@ i3lock
 brave-browser
 google-chrome-stable
 
+# Tool to access S3 user's buckets from the CLI
+s3cmd
+
 # Everything else
 gnome-tweaks
 dnf-utils
