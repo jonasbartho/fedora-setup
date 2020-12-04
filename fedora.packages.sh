@@ -47,6 +47,7 @@ blueman
 ansible
 jc
 perl
+tig
 #android-file-transfer - go into dev options + toggle off/on MTP and try to mount the phone, this works better than android-file-transfer
 #steam
 #lutris
