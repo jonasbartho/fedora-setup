@@ -13,6 +13,10 @@ sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 # Rpmfusion repo(Third-party software)
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
+# Terraform baby!
+sudo dnf install -y dnf-plugins-core
+sudo dnf config-manager --add-repo https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
+
 # Google Chrome repo
 sudo dnf install fedora-workstation-repositories -y
 sudo dnf config-manager --set-enabled google-chrome
