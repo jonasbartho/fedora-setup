@@ -20,9 +20,6 @@ i3lock
 brave-browser
 google-chrome-stable
 
-# Tool to access S3 user's buckets from the CLI
-awscli
-
 # Everything else
 gnome-tweaks
 dnf-utils
@@ -50,6 +47,8 @@ perl
 tig
 myrepos
 shellcheck
+terraform
+awscli
 #android-file-transfer - go into dev options + toggle off/on MTP and try to mount the phone, this works better than android-file-transfer
 #steam
 #lutris
